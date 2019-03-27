@@ -134,3 +134,15 @@ html,
 body {
   height: 100%;
 }
+header nav a {
+  color: red;
+}
+.top-content .btn-container .sign-up {
+  color: red;
+}
+.mid-content .bottom ul li {
+  color: red;
+}
+.bottom-content ul li {
+  color: red;
+}
