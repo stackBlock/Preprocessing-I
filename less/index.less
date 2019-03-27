@@ -63,23 +63,42 @@ html, body {
 // mixins
 
 
-header {
+.container {
+	max-width: 825px;
+	margin: 0 auto;
+}
+
+header {	
 	nav {
+		margin-left: 70%;
+		margin-right: 5%;
+		display: flex;
+		justify-content: space-between;
+		margin-top:20px;
+		margin-bottom: 20px;
 		a {
-			color: red;
 		}
 	}
 } 
 
 
 .top-content {
-	img {
+	width: 95%;
+	margin-left: 20px;
+	height: 640px;
+	border: 2px solid red;
 
+	img {
+		margin-top: 50px;
+		margin-left: 5%;
 	}
 	h1 {
-
+		margin-left: 5%;
+		font-size: 50px;
 	}
 	h3 {
+		margin-top: 10px;
+		font-size: 30px;
 
 	}
 	p {
@@ -125,5 +144,5 @@ header {
 }
 
 footer {
-	
+
 }
