@@ -76,7 +76,10 @@ header {
 		justify-content: space-between;
 		margin-top:20px;
 		margin-bottom: 20px;
+		
 		a {
+			text-decoration: none;
+			color: black;
 		}
 	}
 } 
@@ -124,24 +127,39 @@ header {
 }
 
 .mid-content {
+	margin-left: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
 	.top {
+		width: 45%;
 		h2 {
-
+			margin: 15px 0px;
+			font-size: 30px;
+	
 		}
 		p {
-
+			line-height: 1.7;
+			margin-bottom: 20px;
+	
 		}
 	}
 	.bottom {
+		width: 45%;
+		margin-left: 5%;
 		h3 {
-
+			padding: 15px 0px 15px;
+			font-size: 25px;
+	
 		}
 		ul {
 			li {
-				color: red;
+				padding: 15px 0px 15px 15px;
+				border: 1px solid lightgray;
 			}
 		}
 	}
+	
+	
 }
 
 .bottom-content {

@@ -146,6 +146,10 @@ header nav {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+header nav a {
+  text-decoration: none;
+  color: black;
+}
 .top-content {
   width: 95%;
   margin-left: 20px;
@@ -180,8 +184,33 @@ header nav {
   color: white;
   font-size: 20px;
 }
+.mid-content {
+  margin-left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mid-content .top {
+  width: 45%;
+}
+.mid-content .top h2 {
+  margin: 15px 0px;
+  font-size: 30px;
+}
+.mid-content .top p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.mid-content .bottom {
+  width: 45%;
+  margin-left: 5%;
+}
+.mid-content .bottom h3 {
+  padding: 15px 0px 15px;
+  font-size: 25px;
+}
 .mid-content .bottom ul li {
-  color: red;
+  padding: 15px 0px 15px 15px;
+  border: 1px solid lightgray;
 }
 .bottom-content ul li {
   color: red;
