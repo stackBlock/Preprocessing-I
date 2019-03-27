@@ -212,6 +212,16 @@ header nav a {
   padding: 15px 0px 15px 15px;
   border: 1px solid lightgray;
 }
+.bottom-content h3 {
+  font-size: 30px;
+  margin-left: 2.5%;
+}
+.bottom-content ul {
+  display: flex;
+}
 .bottom-content ul li {
   color: red;
+}
+.bottom-content ul li p {
+  margin-right: 20%;
 }
