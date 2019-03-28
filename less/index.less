@@ -164,7 +164,7 @@ header {
 
 .bottom-content {
 	margin-bottom: 50px;
-	border: 2px solid red;
+	width: 95%;
 	
 	h3 {
 		font-size: 30px;
@@ -172,38 +172,58 @@ header {
 
 	}
 	ul {
-		border: 2px solid red;
-		li {
-			display: inline-block;
-			border: 2px solid red;
-			.one {
+		display: flex;
+		flex-direction: row;
+		outline: 3px solid #1C6EA4;
+		outline-offset: 0px;
+		.sec1 {
+			outline: 3px solid #1C6EA4;
+			outline-offset: 0px;
+			
+			p {
 				color: red;
 				height: 30px;
-				width: 200px;
-			
-				
-			}
-			.two {
+				margin-left: 50%;			
+			}	
+			p {
+				color: red;
+				width: 100%;
 				height: 30px;
-				width: 200px;
-
-			}
-			.three {
-				height: 30px;
-				width: 200px;
-
-			}
-			.four {
-				height: 30px;
-				width: 150px;
-				
-
-			}
-			
+				margin-left: 50%;
+				border-top: 3px solid lightgray;
+				border-bottom: 3px solid lightgray;	
+						
+			}			
 		}
+		.sec2 {
+			p {
+				color: red;
+				height: 30px;
+				margin-left: 100%;			
+			}			
+		}
+		.sec3 {
+			p {
+				color: red;
+				height: 30px;
+				margin-left: 150%;
+				width: 100%;			
+			}			
+		}
+		.sec4 {
+			p {
+				color: red;
+				height: 30px;
+				margin-left: 525%;
+				width: 100%			
+			}			
+		}
+
 	}
 }
 
 footer {
 
 }
+
+
