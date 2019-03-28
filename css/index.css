@@ -212,16 +212,35 @@ header nav a {
   padding: 15px 0px 15px 15px;
   border: 1px solid lightgray;
 }
+.bottom-content {
+  margin-bottom: 50px;
+  border: 2px solid red;
+}
 .bottom-content h3 {
   font-size: 30px;
   margin-left: 2.5%;
 }
 .bottom-content ul {
-  display: flex;
+  border: 2px solid red;
 }
 .bottom-content ul li {
-  color: red;
+  display: inline-block;
+  border: 2px solid red;
 }
-.bottom-content ul li p {
-  margin-right: 20%;
+.bottom-content ul li .one {
+  color: red;
+  height: 30px;
+  width: 200px;
+}
+.bottom-content ul li .two {
+  height: 30px;
+  width: 200px;
+}
+.bottom-content ul li .three {
+  height: 30px;
+  width: 200px;
+}
+.bottom-content ul li .four {
+  height: 30px;
+  width: 150px;
 }
